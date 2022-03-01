@@ -1,0 +1,41 @@
+html {
+    min-height: 100vh;
+}
+
+body {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: url(./pexels-tima-miroshnichenko-5380640.png);
+background-position: center;
+    background-size: cover;
+
+    background-repeat: no-repeat;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.russianflag {
+
+    width: 50px;
+    border-radius: 5px;
+}
+
+.russianbox {
+    display: flex;
+    justify-content: center;
+    gap:30px;
+ h3 {width: 60%;
+     color: white;
+     font-family: 'Source Sans Pro', sans-serif;
+     font-weight: 400;
+     font-size: clamp(0.8rem,5vw,1.3rem);
+ }
+}
+
